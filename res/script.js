@@ -4,10 +4,10 @@ let timeOut = "";
 
 let ken = document.getElementById("ninja-ken");
 
-let splashScreen = document.getElementById("splash")[0];
-let startGame = document.getElementById("start")[0];
-let displaySkorKen = document.getElementById("skor-ken")[0];
-let displaySkorPlayer = document.getElementById("skor-player")[0];
+let splashScreen = document.getElementsByClassName("splash")[0];
+let startGame = document.getElementsByClassName("start")[0];
+let displaySkorKen = document.getElementsByClassName("skor-ken")[0];
+let displaySkorPlayer = document.getElementsByClassName("skor-player")[0];
 
 let reset = document.getElementById("reset");
 let batu = document.getElementById("batu");
@@ -62,7 +62,7 @@ function janken(tangan) {
             ken.style.backgroundImage = "url(res/ken-gunting.png)"
             break;
         case 2:
-            ken.style.backgroundImage = "url(tes/ken-kertas.png)"
+            ken.style.backgroundImage = "url(res/ken-kertas.png)"
             break;
     }
 
