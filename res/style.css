@@ -6,7 +6,7 @@
     }
 
     25% {
-        transform: translateX( -2px);
+        transform: translateX(-2px);
     }
 
     75% {
@@ -58,12 +58,24 @@ button {
 }
 
 .splash .center h1 {
-    margin: 0px 0px 20px;
+    margin: 0 0 20px;
     font-family:  "Sigmar One", cursive;
     font-size: 3em;
     font-weight: normal;
     color: #7879b9;
     -webkit-text-stroke: 2px #6869a1;
+}
+
+.splash .center button {
+    margin-top:  30px;
+    padding: 15px 30px;
+    font-size: 1.25em;
+    line-height: 1em;
+    background: #7879b9;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 8px 0 #6869a1;
 }
 
 .splash .center button:active {
@@ -125,7 +137,7 @@ button {
 
 .skor span+span {
     padding: 20px 0 0;
-    border-top: solid1px #ddd;
+    border-top: solid 1px #ddd;
 }
 
 .skor .skor-ken,
@@ -175,12 +187,12 @@ button {
 }
 
 .pilih #gunting {
-    background: url(player-gunting) center center no-repeat;
+    background: url(player-gunting.png) center center no-repeat;
     background-size: contain;
 }
 
 .pilih #kertas {
-    background: url(player-kertas) center center no-repeat;
+    background: url(player-kertas.png) center center no-repeat;
     background-size: contain;
 }
 
@@ -221,7 +233,7 @@ button {
     .pilih {
         width: auto;
         padding: 10px 50px 15px;
-        border: soldi 5px #7accb9;
+        border: solid 5px #7accb9;
         border-bottom: none;
         border-radius: 50px 50px 0 0;
     }
